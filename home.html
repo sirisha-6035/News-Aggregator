@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Aggregator</title>
+    <link rel="stylesheet" href="assets/CSS/styles.css">
+    <style>
+        /* Navigation Bar Styles */
+        nav {
+            background: rgba(44, 62, 80, 0.8); /* Slightly transparent background */
+            padding: 10px 0; /* Padding around the nav */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+            position: fixed; /* Fixed position at the top */
+            width: 100%;
+            top: 0;
+            z-index: 1000; /* Ensure it sits above other content */
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin: 0 15px; /* Spacing between items */
+        }
+
+        nav ul li a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 10px 15px; /* Padding for better touch targets */
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #1abc9c; /* Bright turquoise background on hover */
+            color: #fff; /* White text color on hover */
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Subtle text shadow for effect */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>News Aggregator</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="aboutuspage.html">About Us</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+            </ul>  
+        </nav>
+    </header>
+
+    <section>
+        <h2>Welcome to News Aggregator</h2>
+        <p>Your one-stop source for the latest news across various categories.</p>
+        <div>
+            <button onclick="location.href='login.html'">Login</button>
+            <button onclick="location.href='Registration.html'">Register</button>
+        </div>
+        <p style="background-image: url('D:\Downloads\0bd4875b5db4c455e2cd5ee7d6c36228.png');"></p>
+    </section>
+
+    <footer>
+        <p>Contact us: contact@newsaggregator.com</p>
+    </footer>
+    <script src="assets/javascript/script.js"></script>
+</body>
+</html>
